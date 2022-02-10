@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  nav {
+    background-color: rgb(6, 6, 7);
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .logo p {
+    line-height: 8vh;
+    color: yellow;
+    font-size: 2em;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    line-height: 8vh;
+    color: azure;
+    font-size: 1.2em;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  .menu-btn {
+    padding-top: 2vh;
+    display: none;
+  }
+  
+  .menu-btn div {
+    background-color: white;
+    height: 4px;
+    width: 20px;
+    margin: 3px;
+  }
+  
+  @media (max-width: 600px) {
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    .menu-btn {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nav-links {
+      position: absolute;
+      right: 0;
+      top: 8vh;
+      background-color: navy;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 42vh;
+      text-align: center;
+      transform: translateX(100%);
+      transition: transform 2s linear;
+    }
+  }
+  
+  .nav-active {
+    transform: translateX(0%)
+  }
+  
+  
+  /**day two**/
+  .page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .page-one {
+    background-image: url("images/sams.jpg");
+  }
+  
+  .page-two {
+    background-image: url("images/TECNO.jpg");
+  }
+  
+  .page-three {
+    background-image: url("images/silver.jpg");
+  }
+  
+  h3 {
+    font-style: italic
+  }
+  
+  .products-heading {
+    font-size: 3em;
+    text-align: center;
+    color: navy;
+    font-weight: 700;
+  }
+  
+  .card {
+    margin: 5px;
+    height: fit-content;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    width: 100%;
+  }
+  
+  .card-text {
+    height: 90px;
+    width: 100%;
+  }
+  
+  .products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /**Day 3**/
+  .selected-item {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  
+  .selected-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  
+  .total-items {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: yellow;
+  }
+  
+  .total-price {
+    padding: 4px;
+    margin: auto;
+    background-color: navy;
+    color: yellow;
+  }
