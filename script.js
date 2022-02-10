@@ -13,42 +13,42 @@ function activateNav() {
     {
       id: 1,
       price: 290,
-      name: "IMAC",
+      name: "Apple 7656",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple1.jpg",
+      img: "applee.jpeg",
     },
     {
       id: 2,
       price: 250,
-      name: "Imac Exclusive",
+      name: "Apple pro",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple2.jpg",
+      img: "iphone 13.jpeg",
     },
     {
       id: 3,
       price: 200,
-      name: "Imac Pro",
+      name: "Xiomi Redmi 10",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple3.jpg",
+      img: "xiomi redmi.jpeg",
     },
     {
       id: 4,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "vivo x70",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple4.png",
+      img: "vivo x70.jpeg",
     },
     {
       id: 5,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "vivo x50",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "iphone.png",
+      img: "vivo x50.jpeg",
     },
     {
       id: 6,
@@ -56,39 +56,39 @@ function activateNav() {
       name: "apple-iphone-se",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "silver.jpg",
+      img: "iphone 1.jpeg",
     },
     {
       id: 7,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "Redmi Note 10",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "Vivo v20.jpeg",
+      img: "redmi note 10.jpeg",
     },
     {
       id: 8,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "vivo x70 pro",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple4.png",
+      img: "vivo x70 pro.jpeg",
     },
     {
       id: 9,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "vivo v21",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "apple4.png",
+      img: "vivo v21.jpeg",
     },
     {
       id: 10,
       price: 150,
-      name: "Imac Pro Lite",
+      name: "Vivo-y1s-2",
       description:
         "The all-in-one for all. if you can dream it, you can do it with Imac",
-      img: "Vivo-Y1s-2.jpg",
+      img: "apple.jpeg",
     },
   ];
   
@@ -101,7 +101,7 @@ function activateNav() {
           <p class="card-text">
           ${product.description}
           </p>
-          <span class="btn btn-warning fw-bold">$&nbsp;&nbsp;${product.price}</span>
+          <span class="btn btn-success fw-bold">$&nbsp;&nbsp;${product.price}</span>
           <button class="btn btn-primary" onClick="addToCart(${product.id})">Add to Cart</button>
         </div>
       </div>
